@@ -66,7 +66,7 @@ const handleSubmit = async (e) => { //Handles the submission.  This async functi
   if (formId === 'form') {
     // Sending year data to the server
     try {
-      const response = await fetch('http://localhost:5000/save-year', {
+      const response = await fetch('https://chatwpu.onrender.com/save-year', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -102,7 +102,7 @@ const handleSubmit = async (e) => { //Handles the submission.  This async functi
       // Sending prompt data to the server
       
       try {
-        const response = await fetch('http://localhost:5000', {
+        const response = await fetch('https://chatwpu.onrender.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
