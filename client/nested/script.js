@@ -1,5 +1,5 @@
-import bot from './assets/bot.svg';   //Bot image
-import user from './assets/user.svg'; //User image
+//import bot from 'bot.svg';   //Bot image
+//import user from 'user.svg'; //User image
 
 
 const form = document.getElementById('form');  
@@ -48,24 +48,7 @@ function generateUniqueId() {
     return `id-${timestamp}-${hexadecimalString}`;
 }
 
-function chatStripe(isAi, value, uniqueId) { //Generates chat stripe on chat to designate between user and bot. 
-    return (
-        `
-        <div class="wrapper ${isAi && 'ai'}">
-            <div class="chat">
-            <div class="profile">
 
-            <img 
-            src="${isAi ? bot : user}"
-            alt="${isAi ? 'bot': 'user'}"/>
-
-            </div>
-            <div class="message" id=${uniqueId}>${value}</div>
-            </div>
-        </div>
-        `
-    )
-}
 
 const handleSubmit = async (e) => { //Handles the submission.  This async function 
   e.preventDefault();               //Prevents default action occuring, could possibly remove the event listeners on the HTML doc. 

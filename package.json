@@ -1,0 +1,11 @@
+{
+  "name": "chatwpu",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  
+  "scripts": {
+    "install": "cd client && npm i && cd ../server &&  npm i",
+    "start": "npm --prefix ./server run server ';' npm --prefix ./client run dev"
+  }
+}
