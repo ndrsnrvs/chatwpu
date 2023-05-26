@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ChatBot - Talk Now</title>
+    <meta property="og:title" content="Page - Character NFT template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <link rel="stylesheet" href="./style.css" />
+
+          <!--Remixicon Styles-->
+          <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      
+          <!--Boxicons Styles-->
+          <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+          <!--Google Fonts-->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
+      ></script>
+      <link href="./page.css" rel="stylesheet" />
+
+      <div class="page-container">
+        <header data-thq="thq-navbar" class="page-navbar">
+          <span class="page-logo">William Paterson University</span>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="page-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="page-nav"
+            >
+              <button class="page-button button-clean button"><a href="index.html">Home</a></button>
+              <button class="page-button1 button-clean button"><a href="page.html">Talk Now</a></button>
+            </nav>
+          </div>
+        </header>
+        <div class="page-questions">
+          <div>
+    
+      <form id='form' action='/save-year'> <!-- /save-year is for the entire questionnaire, it is not limited to just the year question.-->
+        <div class='container'>
+          <!-- Question would've been here --><h1>What year are you in?</h1>
+          <div class='radio-tile-group'>
+            <!--Input Option 1-->
+            <div class='input-container'>
+              <input id='freshman' type='radio' name='year' value='freshman'>
+              <div class='radio-tile'>
+                <i class="ri-emotion-happy-fill"></i>
+                <label for='freshman' style='text-align: center'>Freshman</label>
+              </div>
+            </div>
+            <!--Input Option 2-->
+            <div class='input-container'>
+              <input id='sophomore' type='radio' name='year' value='sophomore'>
+              <div class='radio-tile'>
+                <i class="ri-emotion-normal-fill"></i>
+                <label for='sophomore'>Sophomore</label>
+              </div>
+            </div>
+            <!--Input Option 3-->
+            <div class='input-container'>
+              <input id='junior' type='radio' name='year' value='junior'>
+              <div class='radio-tile'>
+                <i class="ri-emotion-sad-fill"></i>
+                <label for='junior'>Junior</label>
+              </div>
+            </div>
+            <!--Input Option 4-->
+            <div class='input-container'>
+              <input id='senior' type='radio' name='year' value='senior'>
+              <div class='radio-tile'>
+                <i class="ri-skull-fill"></i>
+                <label for='senior'>Senior</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    <!-- Question 2-->
+        <div class='container'>
+          <!-- Question would've been here --><h1>What are your interests?</h1>
+          <div class='radio-tile-group'>
+            <!--Input Option 1-->
+            <div class='input-container'>
+              <input id='computer-science' type='radio' name='interest' value='computer-science'>
+              <div class='radio-tile'>
+                <i class="ri-braces-fill"></i>
+                <label for='computer-science' style='text-align: center'>Computer Science</label>
+              </div>
+            </div>
+            <!--Input Option 2-->
+            <div class='input-container'>
+              <input id='nursing' type='radio' name='interest' value='nursing'>
+              <div class='radio-tile'>
+                <i class="ri-nurse-fill"></i>
+                <label for='nursing'>Nursing</label>
+              </div>
+            </div>
+            <!--Input Option 3-->
+            <div class='input-container'>
+              <input id='physics' type='radio' name='interest' value='physics'>
+              <div class='radio-tile'>
+                <i class="ri-planet-fill"></i>
+                <label for='physics'>Physics</label>
+              </div>
+            </div>
+            <!--Input Option 4-->
+            <div class='input-container'>
+              <input id='english' type='radio' name='interest' value='english'>
+              <div class='radio-tile'>
+                <i class="ri-book-fill"></i>
+                <label for='english'>English</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Drop Down-->
+        
+        <div class="container">
+          <h1>Ask a Question:</h1>
+          <select id="question" class="heading-push" name="question">
+            <option value="How can I study better?">How Can I Study Better?</option>
+            <option value="Does WPU have any extracurricular activities I can be a part of?">Does WPU have any extracurricular activities I can be a part of?</option>
+            <option value="What resources does the library offer for research?">What resources does the library offer for research?</option>
+            <option value="Can you recommend any clubs or student organizations on campus?">Can you recommend any clubs or student organizations on campus?</option>
+            <option value="How can I get involved in community service projects at WPU?">How can I get involved in community service projects at WPU?</option>
+            <option value="What are the available tutoring services for students?">What are the available tutoring services for students?</option>
+            <option value="How can I apply for internships or job opportunities through the university?">How can I apply for internships or job opportunities through the university?</option>
+          </select>
+          
+        </div>
+
+
+
+        <button type="submit" class="page-button4 button">Submit</button>
+        
+
+</form>
+            
+          </div>
+          
+        </div>
+          <div>
+
+            <div id='app' action='/save-prompt'>
+              <div id='chat_container'>
+              </div>
+                <form id='chatbox'>
+                  <textarea name='prompt' rows='1' cols='1' placeholder='Ask Your Career Advisor'></textarea>
+
+                  
+                  <button class="page-button4 button" type='submit'>Submit</button>
+                </form>
+                
+    </div>
+    <script type='module' src='script.js'></script>
+    
+
+    <script>
+
+      document.getElementById('form').addEventListener('submit', function(event){
+        event.preventDefault();         // Prevent the form from submitting normally
+      
+        
+        console.log('Form submitted'); //Just to check if the prevented action has occurred.  
+      });
+      
+      document.getElementById('chatbox').addEventListener('submit', function(event){
+        event.preventDefault(); // prevent the form from submitting normally
+      
+        
+        console.log('Chat submitted'); //Just to check if the prevented action has occurred.
+      });
+      
+
+
+    </script>
+          </div>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
